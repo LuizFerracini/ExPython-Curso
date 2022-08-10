@@ -1,0 +1,5 @@
+num = float(input("Digite um número: "))
+n = str(num)
+print("Analisando o número..")
+print("Unidade: {}\nDezena: {}\nCentena: {}\nMilhar: {}".format(n[0], n[1], n[2], n[3]))
+print("-"*15)
