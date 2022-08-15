@@ -2,7 +2,7 @@ from random import randint
 from time import sleep
 from operator import itemgetter
 
-print("Dados sendo jogados...")
+print("dado sendo jogados...")
 print("-="*20)
 
 dados = {"Jogador1": randint(1, 6),
