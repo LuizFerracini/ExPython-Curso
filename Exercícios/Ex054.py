@@ -2,7 +2,7 @@ ano = 2022
 maior = 0
 menor = 0
 for pessoas in range (1, 8):
-    nasc = int(input('Qual o seu ano de nascimento da {}ª pessoa? '.format(pessoas)))
+    nasc = int(input('Qual o de nascimento da {}ª pessoa? '.format(pessoas)))
     idade = ano - nasc
     if idade >= 21:
         maior += 1
